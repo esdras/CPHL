@@ -196,7 +196,9 @@ Available headers include:
 ```
 
 <h4>application/cphl+xml+docs+code+formats</h4>
+
 ```xml
+
 <_definition>
   <raml>http://api.domain.com/docs/api/raml</raml>
   <swagger>http://api.domain.com/docs/api/swagger</swagger>
@@ -242,7 +244,9 @@ Available headers include:
 ```
 
 <h4>application/cphl+yaml</h4>
+
 ```yaml
+
 _definition:
   raml: http://api.domain.com/docs/api/raml
   swagger: http://api.domain.com/docs/api/swagger
@@ -258,6 +262,7 @@ _links:
 ```
 
 <h4>application/cphl+yaml+docs+code+formats</h4>
+
 ```yaml
 _definition:
   raml: http://api.domain.com/docs/api/raml
@@ -295,6 +300,7 @@ _links:
 ```
 
 <h3>Clients and Cross-Compatiblity</h3>
+
 CPHL is compatible with any JSON HAL client as it is simliar in structure and shares the "title" and "href" properties.  However, the description, methods, formats, docHref, and code properties are not supported by HAL and will be ignored.  Likewise, CPHL does not support curies or URI relations at this time.
 
 Otherwise CPHL can be deserialized and used across any language with the appropriate library (whether it be JSON, XML, YAML, etc).
