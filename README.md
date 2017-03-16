@@ -107,7 +107,9 @@ Available headers include:
 
 <h3>Examples</h3>
 <h4>application/cphl+json</h4>
+
 ```json
+
 {
   "_definition": {
       "raml": "http://api.domain.com/docs/api/raml",
@@ -122,10 +124,13 @@ Available headers include:
       }
   }
 }
+
 ```
 
 <h4>application/cphl+json+docs+code+formats</h4>
+
 ```json
+
 {
   "_definition": {
       "raml": "http://api.domain.com/docs/api/raml",
@@ -168,9 +173,11 @@ Available headers include:
       }
   }
 }
+
 ```
 
 <h4>application/cphl+xml</h4>
+
 ```xml
 <_definition>
   <raml>http://api.domain.com/docs/api/raml</raml>
